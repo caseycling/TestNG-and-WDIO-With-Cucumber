@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-03T08:18:46 PDT" name="Native Demo Suite" finished-at="2024-10-03T08:19:49 PDT" duration-ms="63541">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.saucelabs.RunCucumberBasicTest@10e92f8f]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.saucelabs.RunCucumberLoginTest@659a969b]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.saucelabs.RunCucumberBasicTest@5e82df6a]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.saucelabs.RunCucumberLoginTest@3f197a46]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.saucelabs.RunCucumberBasicTest@6ca8564a]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.saucelabs.RunCucumberLoginTest@50b472aa]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.saucelabs.RunCucumberBasicTest@4ac3c60d]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.saucelabs.RunCucumberLoginTest@4facf68f]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-10-03T08:18:46 PDT" name="Mac Chrome Latest-1 Demo App" finished-at="2024-10-03T08:19:07 PDT" duration-ms="21683">
+      <class name="com.saucelabs.RunCucumberBasicTest">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.saucelabs.RunCucumberBasicTest@5e82df6a]" started-at="2024-10-03T08:18:46 PDT" name="setUpClass" finished-at="2024-10-03T08:18:46 PDT" duration-ms="119" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6d763516]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.saucelabs.RunCucumberBasicTest@5e82df6a]" started-at="2024-10-03T08:18:46 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-03T08:18:53 PDT" duration-ms="7694" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check SwagLabs Title"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Load page works"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.saucelabs.RunCucumberBasicTest@5e82df6a]" started-at="2024-10-03T08:18:53 PDT" name="tearDownClass" finished-at="2024-10-03T08:18:53 PDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.saucelabs.RunCucumberBasicTest -->
+      <class name="com.saucelabs.RunCucumberLoginTest">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.saucelabs.RunCucumberLoginTest@3f197a46]" started-at="2024-10-03T08:18:46 PDT" name="setUpClass" finished-at="2024-10-03T08:18:46 PDT" duration-ms="118" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6d763516]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.saucelabs.RunCucumberLoginTest@3f197a46]" started-at="2024-10-03T08:18:46 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-03T08:18:56 PDT" duration-ms="10328" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Success Login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login page works"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.saucelabs.RunCucumberLoginTest@3f197a46]" started-at="2024-10-03T08:18:56 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-03T08:19:07 PDT" duration-ms="11223" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Failed Login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login page works"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.saucelabs.RunCucumberLoginTest@3f197a46]" started-at="2024-10-03T08:19:07 PDT" name="tearDownClass" finished-at="2024-10-03T08:19:07 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.saucelabs.RunCucumberLoginTest -->
+    </test> <!-- Mac Chrome Latest-1 Demo App -->
+    <test started-at="2024-10-03T08:18:46 PDT" name="Windows firefox Latest Demo App" finished-at="2024-10-03T08:19:18 PDT" duration-ms="32152">
+      <class name="com.saucelabs.RunCucumberBasicTest">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.saucelabs.RunCucumberBasicTest@10e92f8f]" started-at="2024-10-03T08:18:46 PDT" name="setUpClass" finished-at="2024-10-03T08:18:46 PDT" duration-ms="118" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@37afeb11]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.saucelabs.RunCucumberBasicTest@10e92f8f]" started-at="2024-10-03T08:18:46 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-03T08:19:01 PDT" duration-ms="15164" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check SwagLabs Title"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Load page works"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.saucelabs.RunCucumberBasicTest@10e92f8f]" started-at="2024-10-03T08:19:01 PDT" name="tearDownClass" finished-at="2024-10-03T08:19:01 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.saucelabs.RunCucumberBasicTest -->
+      <class name="com.saucelabs.RunCucumberLoginTest">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.saucelabs.RunCucumberLoginTest@659a969b]" started-at="2024-10-03T08:18:46 PDT" name="setUpClass" finished-at="2024-10-03T08:18:46 PDT" duration-ms="118" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@37afeb11]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.saucelabs.RunCucumberLoginTest@659a969b]" started-at="2024-10-03T08:18:46 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-03T08:19:02 PDT" duration-ms="16640" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Success Login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login page works"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.saucelabs.RunCucumberLoginTest@659a969b]" started-at="2024-10-03T08:19:02 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-03T08:19:18 PDT" duration-ms="15381" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Failed Login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login page works"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.saucelabs.RunCucumberLoginTest@659a969b]" started-at="2024-10-03T08:19:18 PDT" name="tearDownClass" finished-at="2024-10-03T08:19:18 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.saucelabs.RunCucumberLoginTest -->
+    </test> <!-- Windows firefox Latest Demo App -->
+    <test started-at="2024-10-03T08:18:46 PDT" name="Android Web Demo App" finished-at="2024-10-03T08:19:49 PDT" duration-ms="63305">
+      <class name="com.saucelabs.RunCucumberBasicTest">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.saucelabs.RunCucumberBasicTest@6ca8564a]" started-at="2024-10-03T08:18:46 PDT" name="setUpClass" finished-at="2024-10-03T08:18:46 PDT" duration-ms="119" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@52bf72b5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.saucelabs.RunCucumberBasicTest@6ca8564a]" started-at="2024-10-03T08:18:46 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-03T08:19:03 PDT" duration-ms="17252" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check SwagLabs Title"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Load page works"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.saucelabs.RunCucumberBasicTest@6ca8564a]" started-at="2024-10-03T08:19:03 PDT" name="tearDownClass" finished-at="2024-10-03T08:19:03 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.saucelabs.RunCucumberBasicTest -->
+      <class name="com.saucelabs.RunCucumberLoginTest">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.saucelabs.RunCucumberLoginTest@50b472aa]" started-at="2024-10-03T08:18:46 PDT" name="setUpClass" finished-at="2024-10-03T08:18:46 PDT" duration-ms="118" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@52bf72b5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.saucelabs.RunCucumberLoginTest@50b472aa]" started-at="2024-10-03T08:18:46 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-03T08:19:22 PDT" duration-ms="36758" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Success Login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login page works"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.saucelabs.RunCucumberLoginTest@50b472aa]" started-at="2024-10-03T08:19:22 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-03T08:19:49 PDT" duration-ms="26416" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Failed Login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login page works"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.saucelabs.RunCucumberLoginTest@50b472aa]" started-at="2024-10-03T08:19:49 PDT" name="tearDownClass" finished-at="2024-10-03T08:19:49 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.saucelabs.RunCucumberLoginTest -->
+    </test> <!-- Android Web Demo App -->
+    <test started-at="2024-10-03T08:18:46 PDT" name="iOS Web Demo App" finished-at="2024-10-03T08:19:49 PDT" duration-ms="63541">
+      <class name="com.saucelabs.RunCucumberBasicTest">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.saucelabs.RunCucumberBasicTest@4ac3c60d]" started-at="2024-10-03T08:18:46 PDT" name="setUpClass" finished-at="2024-10-03T08:18:46 PDT" duration-ms="118" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@515aebb0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.saucelabs.RunCucumberBasicTest@4ac3c60d]" started-at="2024-10-03T08:18:46 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-03T08:19:15 PDT" duration-ms="29316" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check SwagLabs Title"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Load page works"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.saucelabs.RunCucumberBasicTest@4ac3c60d]" started-at="2024-10-03T08:19:15 PDT" name="tearDownClass" finished-at="2024-10-03T08:19:15 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.saucelabs.RunCucumberBasicTest -->
+      <class name="com.saucelabs.RunCucumberLoginTest">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.saucelabs.RunCucumberLoginTest@4facf68f]" started-at="2024-10-03T08:18:46 PDT" name="setUpClass" finished-at="2024-10-03T08:18:46 PDT" duration-ms="118" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@515aebb0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.saucelabs.RunCucumberLoginTest@4facf68f]" started-at="2024-10-03T08:18:46 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-03T08:19:21 PDT" duration-ms="35359" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Success Login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login page works"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.saucelabs.RunCucumberLoginTest@4facf68f]" started-at="2024-10-03T08:19:21 PDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-03T08:19:49 PDT" duration-ms="28050" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Failed Login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login page works"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.saucelabs.RunCucumberLoginTest@4facf68f]" started-at="2024-10-03T08:19:49 PDT" name="tearDownClass" finished-at="2024-10-03T08:19:49 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.saucelabs.RunCucumberLoginTest -->
+    </test> <!-- iOS Web Demo App -->
+  </suite> <!-- Native Demo Suite -->
+</testng-results>

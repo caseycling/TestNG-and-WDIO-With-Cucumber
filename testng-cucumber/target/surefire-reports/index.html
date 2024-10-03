@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Native_Demo_Suite" class="navigator-link">
+              <span class="suite-name border-passed">Native Demo Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Native_Demo_Suite" class="navigator-link ">
+                    <span>myDemoParallelTests.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Native_Demo_Suite" class="navigator-link ">
+                    <span class="test-stats">4 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Native_Demo_Suite" class="navigator-link ">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Native_Demo_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Native_Demo_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Native_Demo_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Native_Demo_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">12 methods,   12 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Native_Demo_Suite" class="hide-methods passed suite-Native_Demo_Suite"> (hide)</a> <!-- hide-methods passed suite-Native_Demo_Suite -->
+                      <a href="#" panel-name="suite-Native_Demo_Suite" class="show-methods passed suite-Native_Demo_Suite"> (show)</a> <!-- show-methods passed suite-Native_Demo_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Native_Demo_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Native_Demo_Suite" title="com.saucelabs.RunCucumberLoginTest" class="method navigator-link" hash-for-method="runScenario(&quot;Failed Login&quot;, &quot;Login page works&quot;)">runScenario("Failed Login", "Login page works")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Native_Demo_Suite" title="com.saucelabs.RunCucumberBasicTest" class="method navigator-link" hash-for-method="runScenario(&quot;Check SwagLabs Title&quot;, &quot;Load page works&quot;)">runScenario("Check SwagLabs Title", "Load page works")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Native_Demo_Suite" title="com.saucelabs.RunCucumberLoginTest" class="method navigator-link" hash-for-method="runScenario(&quot;Success Login&quot;, &quot;Login page works&quot;)">runScenario("Success Login", "Login page works")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Native_Demo_Suite" title="com.saucelabs.RunCucumberLoginTest" class="method navigator-link" hash-for-method="runScenario(&quot;Failed Login&quot;, &quot;Login page works&quot;)">runScenario("Failed Login", "Login page works")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Native_Demo_Suite" title="com.saucelabs.RunCucumberBasicTest" class="method navigator-link" hash-for-method="runScenario(&quot;Check SwagLabs Title&quot;, &quot;Load page works&quot;)">runScenario("Check SwagLabs Title", "Load page works")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Native_Demo_Suite" title="com.saucelabs.RunCucumberLoginTest" class="method navigator-link" hash-for-method="runScenario(&quot;Success Login&quot;, &quot;Login page works&quot;)">runScenario("Success Login", "Login page works")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Native_Demo_Suite" title="com.saucelabs.RunCucumberBasicTest" class="method navigator-link" hash-for-method="runScenario(&quot;Check SwagLabs Title&quot;, &quot;Load page works&quot;)">runScenario("Check SwagLabs Title", "Load page works")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Native_Demo_Suite" title="com.saucelabs.RunCucumberLoginTest" class="method navigator-link" hash-for-method="runScenario(&quot;Failed Login&quot;, &quot;Login page works&quot;)">runScenario("Failed Login", "Login page works")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Native_Demo_Suite" title="com.saucelabs.RunCucumberLoginTest" class="method navigator-link" hash-for-method="runScenario(&quot;Success Login&quot;, &quot;Login page works&quot;)">runScenario("Success Login", "Login page works")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Native_Demo_Suite" title="com.saucelabs.RunCucumberBasicTest" class="method navigator-link" hash-for-method="runScenario(&quot;Check SwagLabs Title&quot;, &quot;Load page works&quot;)">runScenario("Check SwagLabs Title", "Load page works")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Native_Demo_Suite" title="com.saucelabs.RunCucumberLoginTest" class="method navigator-link" hash-for-method="runScenario(&quot;Failed Login&quot;, &quot;Login page works&quot;)">runScenario("Failed Login", "Login page works")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Native_Demo_Suite" title="com.saucelabs.RunCucumberLoginTest" class="method navigator-link" hash-for-method="runScenario(&quot;Success Login&quot;, &quot;Login page works&quot;)">runScenario("Success Login", "Login page works")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Native_Demo_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Native_Demo_Suite" class="panel Native_Demo_Suite">
+          <div class="suite-Native_Demo_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.saucelabs.RunCucumberBasicTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Check SwagLabs Title&quot;, &quot;Load page works&quot;)">
+                  </a> <!-- runScenario("Check SwagLabs Title", "Load page works") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Check SwagLabs Title", "Load page works")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Check SwagLabs Title&quot;, &quot;Load page works&quot;)">
+                  </a> <!-- runScenario("Check SwagLabs Title", "Load page works") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Check SwagLabs Title", "Load page works")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Check SwagLabs Title&quot;, &quot;Load page works&quot;)">
+                  </a> <!-- runScenario("Check SwagLabs Title", "Load page works") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Check SwagLabs Title", "Load page works")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Check SwagLabs Title&quot;, &quot;Load page works&quot;)">
+                  </a> <!-- runScenario("Check SwagLabs Title", "Load page works") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Check SwagLabs Title", "Load page works")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Native_Demo_Suite-class-passed -->
+          <div class="suite-Native_Demo_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.saucelabs.RunCucumberLoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Failed Login&quot;, &quot;Login page works&quot;)">
+                  </a> <!-- runScenario("Failed Login", "Login page works") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Failed Login", "Login page works")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Success Login&quot;, &quot;Login page works&quot;)">
+                  </a> <!-- runScenario("Success Login", "Login page works") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Success Login", "Login page works")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Failed Login&quot;, &quot;Login page works&quot;)">
+                  </a> <!-- runScenario("Failed Login", "Login page works") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Failed Login", "Login page works")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Success Login&quot;, &quot;Login page works&quot;)">
+                  </a> <!-- runScenario("Success Login", "Login page works") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Success Login", "Login page works")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Failed Login&quot;, &quot;Login page works&quot;)">
+                  </a> <!-- runScenario("Failed Login", "Login page works") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Failed Login", "Login page works")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Success Login&quot;, &quot;Login page works&quot;)">
+                  </a> <!-- runScenario("Success Login", "Login page works") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Success Login", "Login page works")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Failed Login&quot;, &quot;Login page works&quot;)">
+                  </a> <!-- runScenario("Failed Login", "Login page works") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Failed Login", "Login page works")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Success Login&quot;, &quot;Login page works&quot;)">
+                  </a> <!-- runScenario("Success Login", "Login page works") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Success Login", "Login page works")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Native_Demo_Suite-class-passed -->
+        </div> <!-- panel Native_Demo_Suite -->
+        <div panel-name="test-xml-Native_Demo_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/caseyclingaman/Desktop/projects/Customer-Repos/adp-repo/testng-cucumber/src/test/resources/config/myDemoParallelTests.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;4&quot; parallel=&quot;tests&quot; name=&quot;Native Demo Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;4&quot; parallel=&quot;methods&quot; name=&quot;Windows firefox Latest Demo App&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;sauce_screenResolution&quot; value=&quot;1600x1200&quot;/&gt;
+    &lt;parameter name=&quot;browserVersion&quot; value=&quot;latest&quot;/&gt;
+    &lt;parameter name=&quot;sauce_tags&quot; value=&quot;Demo,Web,W3&quot;/&gt;
+    &lt;parameter name=&quot;browserName&quot; value=&quot;firefox&quot;/&gt;
+    &lt;parameter name=&quot;platformName&quot; value=&quot;windows 10&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.saucelabs.RunCucumberBasicTest&quot;/&gt;
+      &lt;class name=&quot;com.saucelabs.RunCucumberLoginTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Windows firefox Latest Demo App --&gt;
+  &lt;test thread-count=&quot;4&quot; parallel=&quot;methods&quot; name=&quot;Mac Chrome Latest-1 Demo App&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;sauce_screenResolution&quot; value=&quot;1024x768&quot;/&gt;
+    &lt;parameter name=&quot;browserVersion&quot; value=&quot;latest-1&quot;/&gt;
+    &lt;parameter name=&quot;sauce_tags&quot; value=&quot;Demo,Web,W3&quot;/&gt;
+    &lt;parameter name=&quot;browserName&quot; value=&quot;chrome&quot;/&gt;
+    &lt;parameter name=&quot;platformName&quot; value=&quot;macOS 11.00&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.saucelabs.RunCucumberBasicTest&quot;/&gt;
+      &lt;class name=&quot;com.saucelabs.RunCucumberLoginTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Mac Chrome Latest-1 Demo App --&gt;
+  &lt;test thread-count=&quot;4&quot; parallel=&quot;methods&quot; name=&quot;Android Web Demo App&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;sauce_appiumVersion&quot; value=&quot;latest&quot;/&gt;
+    &lt;parameter name=&quot;browserName&quot; value=&quot;chrome&quot;/&gt;
+    &lt;parameter name=&quot;platformName&quot; value=&quot;android&quot;/&gt;
+    &lt;parameter name=&quot;appium:deviceName&quot; value=&quot;Samsung.*&quot;/&gt;
+    &lt;parameter name=&quot;appium:automationName&quot; value=&quot;UiAutomator2&quot;/&gt;
+    &lt;parameter name=&quot;sauce_cacheId&quot; value=&quot;android_web_123&quot;/&gt;
+    &lt;parameter name=&quot;appium:platformVersion&quot; value=&quot;12&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.saucelabs.RunCucumberBasicTest&quot;/&gt;
+      &lt;class name=&quot;com.saucelabs.RunCucumberLoginTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Android Web Demo App --&gt;
+  &lt;test thread-count=&quot;4&quot; parallel=&quot;methods&quot; name=&quot;iOS Web Demo App&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;sauce_appiumVersion&quot; value=&quot;latest&quot;/&gt;
+    &lt;parameter name=&quot;browserName&quot; value=&quot;safari&quot;/&gt;
+    &lt;parameter name=&quot;platformName&quot; value=&quot;iOS&quot;/&gt;
+    &lt;parameter name=&quot;appium:deviceName&quot; value=&quot;iPhone.*&quot;/&gt;
+    &lt;parameter name=&quot;appium:automationName&quot; value=&quot;XCuiTest&quot;/&gt;
+    &lt;parameter name=&quot;sauce_cacheId&quot; value=&quot;ios_web_123&quot;/&gt;
+    &lt;parameter name=&quot;appium:platformVersion&quot; value=&quot;16&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.saucelabs.RunCucumberBasicTest&quot;/&gt;
+      &lt;class name=&quot;com.saucelabs.RunCucumberLoginTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- iOS Web Demo App --&gt;
+&lt;/suite&gt; &lt;!-- Native Demo Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Native_Demo_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Native Demo Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Windows firefox Latest Demo App (2 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Mac Chrome Latest-1 Demo App (2 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Android Web Demo App (2 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">iOS Web Demo App (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Native_Demo_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Native Demo Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">cucumber</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">runScenario</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Native_Demo_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Native Demo Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Native_Demo_Suite');
+function tableData_Native_Demo_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(12);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'runScenario')
+data.setCell(0, 2, 'com.saucelabs.RunCucumberLoginTest')
+data.setCell(0, 3, 36758);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'runScenario')
+data.setCell(1, 2, 'com.saucelabs.RunCucumberLoginTest')
+data.setCell(1, 3, 35359);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'runScenario')
+data.setCell(2, 2, 'com.saucelabs.RunCucumberBasicTest')
+data.setCell(2, 3, 29316);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'runScenario')
+data.setCell(3, 2, 'com.saucelabs.RunCucumberLoginTest')
+data.setCell(3, 3, 28050);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'runScenario')
+data.setCell(4, 2, 'com.saucelabs.RunCucumberLoginTest')
+data.setCell(4, 3, 26416);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'runScenario')
+data.setCell(5, 2, 'com.saucelabs.RunCucumberBasicTest')
+data.setCell(5, 3, 17252);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'runScenario')
+data.setCell(6, 2, 'com.saucelabs.RunCucumberLoginTest')
+data.setCell(6, 3, 16640);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'runScenario')
+data.setCell(7, 2, 'com.saucelabs.RunCucumberLoginTest')
+data.setCell(7, 3, 15381);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'runScenario')
+data.setCell(8, 2, 'com.saucelabs.RunCucumberBasicTest')
+data.setCell(8, 3, 15164);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'runScenario')
+data.setCell(9, 2, 'com.saucelabs.RunCucumberLoginTest')
+data.setCell(9, 3, 11223);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'runScenario')
+data.setCell(10, 2, 'com.saucelabs.RunCucumberLoginTest')
+data.setCell(10, 3, 10328);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'runScenario')
+data.setCell(11, 2, 'com.saucelabs.RunCucumberBasicTest')
+data.setCell(11, 3, 7694);
+window.suiteTableData['Native_Demo_Suite']= { tableData: data, tableDiv: 'times-div-Native_Demo_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Native_Demo_Suite">
+              </div> <!-- times-div-Native_Demo_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Native_Demo_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Native Demo Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Native_Demo_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Native_Demo_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.saucelabs.RunCucumberBasicTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpClass(org.testng.TestRunner@6d763516)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpClass(org.testng.TestRunner@52bf72b5)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpClass(org.testng.TestRunner@37afeb11)</span>
+                <span class="method-start">1 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.saucelabs.RunCucumberLoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpClass(org.testng.TestRunner@37afeb11)</span>
+                <span class="method-start">1 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpClass(org.testng.TestRunner@6d763516)</span>
+                <span class="method-start">1 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpClass(org.testng.TestRunner@52bf72b5)</span>
+                <span class="method-start">1 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpClass(org.testng.TestRunner@515aebb0)</span>
+                <span class="method-start">1 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.saucelabs.RunCucumberBasicTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpClass(org.testng.TestRunner@515aebb0)</span>
+                <span class="method-start">1 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Check SwagLabs Title", "Load page works")</span>
+                <span class="method-start">124 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.saucelabs.RunCucumberLoginTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Success Login", "Login page works")</span>
+                <span class="method-start">124 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.saucelabs.RunCucumberBasicTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Check SwagLabs Title", "Load page works")</span>
+                <span class="method-start">124 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.saucelabs.RunCucumberLoginTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Success Login", "Login page works")</span>
+                <span class="method-start">124 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.saucelabs.RunCucumberBasicTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Check SwagLabs Title", "Load page works")</span>
+                <span class="method-start">124 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.saucelabs.RunCucumberLoginTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Success Login", "Login page works")</span>
+                <span class="method-start">124 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.saucelabs.RunCucumberBasicTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Check SwagLabs Title", "Load page works")</span>
+                <span class="method-start">124 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.saucelabs.RunCucumberLoginTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Success Login", "Login page works")</span>
+                <span class="method-start">124 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.saucelabs.RunCucumberBasicTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">7820 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.saucelabs.RunCucumberLoginTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Failed Login", "Login page works")</span>
+                <span class="method-start">10453 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.saucelabs.RunCucumberBasicTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">15289 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.saucelabs.RunCucumberLoginTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Failed Login", "Login page works")</span>
+                <span class="method-start">16765 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.saucelabs.RunCucumberBasicTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">17377 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.saucelabs.RunCucumberLoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">21677 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.saucelabs.RunCucumberBasicTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">29440 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.saucelabs.RunCucumberLoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">32146 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Failed Login", "Login page works")</span>
+                <span class="method-start">35484 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Failed Login", "Login page works")</span>
+                <span class="method-start">36883 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">63299 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">63535 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

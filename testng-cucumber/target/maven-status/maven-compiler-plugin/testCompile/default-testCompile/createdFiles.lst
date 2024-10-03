@@ -1,0 +1,8 @@
+com/saucelabs/stepdefinitions/DemoBasicStepDefinitions.class
+com/saucelabs/stepdefinitions/BaseTest.class
+com/saucelabs/utils/Config.class
+com/saucelabs/utils/TestContext.class
+com/saucelabs/stepdefinitions/DemoLogibStepDefinitions.class
+com/saucelabs/RunCucumberTest.class
+com/saucelabs/RunCucumberBasicTest.class
+com/saucelabs/RunCucumberLoginTest.class
