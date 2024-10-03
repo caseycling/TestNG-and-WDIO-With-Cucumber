@@ -1,4 +1,4 @@
-**Sauce Labs Parallel Testing Repo**
+## **Sauce Labs Parallel Testing Repo**
 
 Repository for executing tests in parallel on Sauce Labs' platform with **TestNG/Cucumber** and **WDIO/Cucumber**
 
